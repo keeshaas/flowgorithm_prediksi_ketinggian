@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 09:12:32 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTA5OzEyOjU4OjIyIFBNOzMxOTk="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTEwOzA5OjEyOjMyIEFNOzI7MzI4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="status" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <input variable="v"/>
+            <input variable="t"/>
+            <assign variable="sinA" expression="sin(s * 22 / 7 / 180)"/>
+            <assign variable="t" expression="v^2*sinA^2/20"/>
+            <output expression="t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
